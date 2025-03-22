@@ -10,7 +10,7 @@ Obsoletes:      zap < %{version}
 Obsoletes:      owasp-zap < %{version}
 License:        Apache-2.0
 URL:            https://www.zaproxy.org/
-Source0:        https://github.com/zaproxy/zaproxy/releases/download/%{version}/ZAP_%{version}_Linux.tar.gz 
+Source0:        https://github.com/zaproxy/zaproxy/releases/download/v%{version}/ZAP_%{version}_Linux.tar.gz
 Source1:        %{name}.desktop
 Source2:        %{name}.png
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-build
